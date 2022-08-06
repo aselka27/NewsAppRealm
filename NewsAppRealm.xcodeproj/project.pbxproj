@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340BD2052893E00B009A0C64 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340BD2042893E00B009A0C64 /* Comment.swift */; };
+		340BD2072893E7CA009A0C64 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340BD2062893E7CA009A0C64 /* User.swift */; };
+		340DE9F5289316CD009CD35A /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DE9F4289316CD009CD35A /* PostTableViewController.swift */; };
+		340DE9F8289316F6009CD35A /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DE9F7289316F6009CD35A /* UserTableViewController.swift */; };
+		340DE9FA28931702009CD35A /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DE9F928931702009CD35A /* CommentTableViewController.swift */; };
+		340DE9FC28931841009CD35A /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DE9FB28931841009CD35A /* UserInfoViewController.swift */; };
+		340DE9FE289318B8009CD35A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DE9FD289318B8009CD35A /* NetworkManager.swift */; };
+		346F737A28999C1E008893DB /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346F737928999C1E008893DB /* RealmService.swift */; };
 		34F0070B28930F73001D693E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0070A28930F73001D693E /* AppDelegate.swift */; };
 		34F0070D28930F73001D693E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0070C28930F73001D693E /* SceneDelegate.swift */; };
-		34F0070F28930F73001D693E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0070E28930F73001D693E /* ViewController.swift */; };
-		34F0071228930F73001D693E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F0071028930F73001D693E /* Main.storyboard */; };
+		34F0070F28930F73001D693E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0070E28930F73001D693E /* TabBarViewController.swift */; };
 		34F0071428930F75001D693E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F0071328930F75001D693E /* Assets.xcassets */; };
 		34F0071728930F75001D693E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F0071528930F75001D693E /* LaunchScreen.storyboard */; };
+		34F0071F289311A3001D693E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0071E289311A3001D693E /* Post.swift */; };
+		957B8CFC76C78A796CBC7490 /* Pods_NewsAppRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B017F780890C0CB18033EA /* Pods_NewsAppRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08B017F780890C0CB18033EA /* Pods_NewsAppRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsAppRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		340BD2042893E00B009A0C64 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		340BD2062893E7CA009A0C64 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		340DE9F4289316CD009CD35A /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
+		340DE9F7289316F6009CD35A /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		340DE9F928931702009CD35A /* CommentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
+		340DE9FB28931841009CD35A /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		340DE9FD289318B8009CD35A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		346F737928999C1E008893DB /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 		34F0070728930F73001D693E /* NewsAppRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAppRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F0070A28930F73001D693E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34F0070C28930F73001D693E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34F0070E28930F73001D693E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		34F0071128930F73001D693E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F0070E28930F73001D693E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		34F0071328930F75001D693E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34F0071628930F75001D693E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34F0071828930F75001D693E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F0071E289311A3001D693E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8CF21F5B2B69EFBF90DC8D26 /* Pods-NewsAppRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAppRealm.release.xcconfig"; path = "Target Support Files/Pods-NewsAppRealm/Pods-NewsAppRealm.release.xcconfig"; sourceTree = "<group>"; };
+		B55954D9528C86B431A76A04 /* Pods-NewsAppRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAppRealm.debug.xcconfig"; path = "Target Support Files/Pods-NewsAppRealm/Pods-NewsAppRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,188 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957B8CFC76C78A796CBC7490 /* Pods_NewsAppRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2712CC52649CC2A3977BDF38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B017F780890C0CB18033EA /* Pods_NewsAppRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		340BD2032893DFFB009A0C64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				340BD2042893E00B009A0C64 /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		340DE9FF2893190D009CD35A /* Resources  */ = {
+			isa = PBXGroup;
+			children = (
+				34F0071528930F75001D693E /* LaunchScreen.storyboard */,
+				34F0071328930F75001D693E /* Assets.xcassets */,
+				34F0070C28930F73001D693E /* SceneDelegate.swift */,
+				34F0070A28930F73001D693E /* AppDelegate.swift */,
+			);
+			path = "Resources ";
+			sourceTree = "<group>";
+		};
+		340DEA0028931926009CD35A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				340DEA012893192E009CD35A /* Controller */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		340DEA012893192E009CD35A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34F0070E28930F73001D693E /* TabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		340DEA0228931938009CD35A /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				340DEA0F28931A53009CD35A /* Workflow */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		340DEA03289319BC009CD35A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				340DE9F4289316CD009CD35A /* PostTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		340DEA04289319C1009CD35A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		340DEA05289319C8009CD35A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34F0071E289311A3001D693E /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		340DEA06289319D9009CD35A /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				340BD2032893DFFB009A0C64 /* Model */,
+				340DEA07289319DD009CD35A /* Controller */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		340DEA07289319DD009CD35A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				340DE9F928931702009CD35A /* CommentTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		340DEA08289319F9009CD35A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				340DEA0E28931A3C009CD35A /* Workflow */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		340DEA09289319FC009CD35A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				340DE9F7289316F6009CD35A /* UserTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		340DEA0A28931A03009CD35A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				340BD2062893E7CA009A0C64 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		340DEA0B28931A0F009CD35A /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				340DEA0C28931A16009CD35A /* Controller */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		340DEA0C28931A16009CD35A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				340DE9FB28931841009CD35A /* UserInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		340DEA0D28931A29009CD35A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				340DE9FD289318B8009CD35A /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		340DEA0E28931A3C009CD35A /* Workflow */ = {
+			isa = PBXGroup;
+			children = (
+				340DEA0A28931A03009CD35A /* Model */,
+				340DEA09289319FC009CD35A /* Controller */,
+				340DEA0B28931A0F009CD35A /* UserInfo */,
+			);
+			path = Workflow;
+			sourceTree = "<group>";
+		};
+		340DEA0F28931A53009CD35A /* Workflow */ = {
+			isa = PBXGroup;
+			children = (
+				340DEA05289319C8009CD35A /* Model */,
+				340DEA04289319C1009CD35A /* View */,
+				340DEA03289319BC009CD35A /* Controller */,
+				340DEA06289319D9009CD35A /* Comment */,
+			);
+			path = Workflow;
+			sourceTree = "<group>";
+		};
+		346F737828999B7B008893DB /* Realm Service */ = {
+			isa = PBXGroup;
+			children = (
+				346F737928999C1E008893DB /* RealmService.swift */,
+			);
+			path = "Realm Service";
+			sourceTree = "<group>";
+		};
 		34F006FE28930F73001D693E = {
 			isa = PBXGroup;
 			children = (
 				34F0070928930F73001D693E /* NewsAppRealm */,
 				34F0070828930F73001D693E /* Products */,
+				8F1CD6526927420B8F872047 /* Pods */,
+				2712CC52649CC2A3977BDF38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +247,24 @@
 		34F0070928930F73001D693E /* NewsAppRealm */ = {
 			isa = PBXGroup;
 			children = (
-				34F0070A28930F73001D693E /* AppDelegate.swift */,
-				34F0070C28930F73001D693E /* SceneDelegate.swift */,
-				34F0070E28930F73001D693E /* ViewController.swift */,
-				34F0071028930F73001D693E /* Main.storyboard */,
-				34F0071328930F75001D693E /* Assets.xcassets */,
-				34F0071528930F75001D693E /* LaunchScreen.storyboard */,
+				346F737828999B7B008893DB /* Realm Service */,
+				340DEA0D28931A29009CD35A /* Network */,
+				340DEA0028931926009CD35A /* TabBar */,
+				340DEA0228931938009CD35A /* Post */,
+				340DEA08289319F9009CD35A /* User */,
+				340DE9FF2893190D009CD35A /* Resources  */,
 				34F0071828930F75001D693E /* Info.plist */,
 			);
 			path = NewsAppRealm;
+			sourceTree = "<group>";
+		};
+		8F1CD6526927420B8F872047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B55954D9528C86B431A76A04 /* Pods-NewsAppRealm.debug.xcconfig */,
+				8CF21F5B2B69EFBF90DC8D26 /* Pods-NewsAppRealm.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34F0071B28930F75001D693E /* Build configuration list for PBXNativeTarget "NewsAppRealm" */;
 			buildPhases = (
+				51FFC7DDE0E6D17B52230C44 /* [CP] Check Pods Manifest.lock */,
 				34F0070328930F73001D693E /* Sources */,
 				34F0070428930F73001D693E /* Frameworks */,
 				34F0070528930F73001D693E /* Resources */,
+				39B51DF920F8449A875342F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +329,76 @@
 			files = (
 				34F0071728930F75001D693E /* LaunchScreen.storyboard in Resources */,
 				34F0071428930F75001D693E /* Assets.xcassets in Resources */,
-				34F0071228930F73001D693E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39B51DF920F8449A875342F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsAppRealm/Pods-NewsAppRealm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsAppRealm/Pods-NewsAppRealm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsAppRealm/Pods-NewsAppRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51FFC7DDE0E6D17B52230C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsAppRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		34F0070328930F73001D693E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F0070F28930F73001D693E /* ViewController.swift in Sources */,
+				340DE9FE289318B8009CD35A /* NetworkManager.swift in Sources */,
+				340DE9F5289316CD009CD35A /* PostTableViewController.swift in Sources */,
+				340DE9FC28931841009CD35A /* UserInfoViewController.swift in Sources */,
+				340DE9FA28931702009CD35A /* CommentTableViewController.swift in Sources */,
+				34F0070F28930F73001D693E /* TabBarViewController.swift in Sources */,
+				340BD2052893E00B009A0C64 /* Comment.swift in Sources */,
 				34F0070B28930F73001D693E /* AppDelegate.swift in Sources */,
+				346F737A28999C1E008893DB /* RealmService.swift in Sources */,
 				34F0070D28930F73001D693E /* SceneDelegate.swift in Sources */,
+				340DE9F8289316F6009CD35A /* UserTableViewController.swift in Sources */,
+				34F0071F289311A3001D693E /* Post.swift in Sources */,
+				340BD2072893E7CA009A0C64 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		34F0071028930F73001D693E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34F0071128930F73001D693E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		34F0071528930F75001D693E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +528,7 @@
 		};
 		34F0071C28930F75001D693E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55954D9528C86B431A76A04 /* Pods-NewsAppRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +539,6 @@
 				INFOPLIST_FILE = NewsAppRealm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +556,7 @@
 		};
 		34F0071D28930F75001D693E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF21F5B2B69EFBF90DC8D26 /* Pods-NewsAppRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +567,6 @@
 				INFOPLIST_FILE = NewsAppRealm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
